@@ -1,0 +1,61 @@
+.active {
+  min-height: 40vh;
+  background-color: white;
+  padding: 20px 0 20px 0;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.done {
+  min-height: 40vh;
+  background-color: white;
+  margin-top: 30px;
+  border-top: 5px solid black;
+  padding: 20px 0 20px 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info {
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+  margin: 10px;
+}
+
+.active h2,
+.done h2 {
+  font-size: 40px;
+}
+
+.active button,
+.done button {
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.delete {
+  background-color: crimson;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 0 !important;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  width: 30%;
+}
