@@ -4,6 +4,7 @@ import './AddTask.css'
 
 class AddTask extends Component {
     minDate=new Date().toISOString().slice(0,10)
+    minDateTime= new Date().getTime();
 
     state = { 
         text:'',
@@ -29,10 +30,16 @@ class AddTask extends Component {
         }
     }
     
-
+    
     handleClick= (e)=>{
         e.preventDefault();
         const {text, date, important} = this.state;
+        if(new Date(date).getTime() < this.minDateTime){
+            alert('błąd')
+            this.setState({
+                date: this.minDate,
+            })
+        }
         if(text.length>2){
             const add= this.props.add(text,date,important);
             if(add){
