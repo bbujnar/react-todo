@@ -1,3 +1,37 @@
+#Opis projektu
+Ten projekt to aplikacja Todo napisana w języku JavaScript przy użyciu biblioteki React.js. Aplikacja umożliwia tworzenie i usuwanie zadań do wykonania oraz zaznaczania zakończonych zadań. Jest to prosty przykład aplikacji React.js, który może służyć jako punkt wyjścia dla osób uczących się tej technologii.
+
+#Wymagania
+Do uruchomienia projektu potrzebujesz następujących zależności:
+
+Node.js (zawierający menedżer pakietów NPM)
+#Instalacja zależności
+Aby zainstalować wymagane zależności, wykonaj następujące kroki:
+
+1. Pobierz kod projektu na swój komputer.
+2. Otwórz terminal i przejdź do katalogu projektu.
+3. Wykonaj polecenie npm install, aby zainstalować wszystkie zależności.
+#Uruchamianie projektu
+Aby uruchomić projekt, wykonaj następujące kroki:
+
+Upewnij się, że zainstalowałeś wszystkie zależności zgodnie z instrukcjami opisanymi powyżej.
+W terminalu, będąc w katalogu projektu, wykonaj polecenie npm start.
+
+
+#Autor 
+Ten projekt został stworzony przez Bartłomiej Bujnarowski. Możesz skontaktować się ze mną pod adresem bartlomiej.bujnarows@microsoft.wsei.edu.pl w razie pytań lub uwag dotyczących projektu.
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
